@@ -6,8 +6,8 @@ import time
 
 
 # ============= CONFIGURATION =============
-NEWS_API_KEY = "cc830b940cd8459697b3235e557392e4"  # Replace with your NewsAPI key
-GEMINI_API_KEY = "AIzaSyCHJELgjbVwXfg4Hn7hwNt-lkwRvbEsfNo"  # Replace with your Google AI key
+NEWS_API_KEY = "YOUR_API_KEY"  # Replace with your NewsAPI key
+GEMINI_API_KEY = "YOUR_API_KEY"  # Replace with your Google AI key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # ============= FETCH NEWS FROM NEWSAPI =============
