@@ -7,7 +7,7 @@ import pandas as pd
 import plotly.graph_objects as go
 
 # Configure Google Gemini
-GOOGLE_API_KEY = "AIzaSyCuv5PR6TN475s9m5pKFNLBy_z0cMA0Nx4"  # Store this securely!
+GOOGLE_API_KEY = "YOUR_API_KEY"  # Store this securely!
 genai.configure(api_key=GOOGLE_API_KEY)
 model = genai.GenerativeModel('gemini-pro')
 
